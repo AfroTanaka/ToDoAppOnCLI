@@ -44,11 +44,7 @@ int main(int argc, char *argv[])
     {
         if (strcmp(argv[1], "-done") == 0)
         {
-            if (strcmp(argv[2], "-main") == 0)
-            {
-                // call func
-            }
-            else if (strcmp(argv[2], "-sub") == 0)
+            if ((strcmp(argv[2], "-main") == 0) || (strcmp(argv[2], "-sub") == 0))
             {
                 // call func
             }
@@ -60,11 +56,7 @@ int main(int argc, char *argv[])
         }
         else if (strcmp(argv[1], "-add") == 0)
         {
-            if (strcmp(argv[2], "-main") == 0)
-            {
-                // call func
-            }
-            else if (strcmp(argv[2], "-sub") == 0)
+            if ((strcmp(argv[2], "-main") == 0) || (strcmp(argv[2], "-sub") == 0))
             {
                 // call func
             }
@@ -76,11 +68,7 @@ int main(int argc, char *argv[])
         }
         else if (strcmp(argv[1], "-rm") == 0)
         {
-            if (strcmp(argv[2], "-main") == 0)
-            {
-                // call func
-            }
-            else if (strcmp(argv[2], "-sub") == 0)
+            if ((strcmp(argv[2], "-main") == 0) || (strcmp(argv[2], "-sub") == 0))
             {
                 // call func
             }
