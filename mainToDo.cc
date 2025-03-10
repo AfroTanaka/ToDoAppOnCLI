@@ -14,6 +14,14 @@ int main(int argc, char *argv[])
         {
             // call func
         }
+        else if (strcmp(argv[1], "-init") == 0)
+        {
+            initTodoSchedule();
+        }
+        else if (strcmp(argv[1], "-reset") == 0)
+        {
+            // call func
+        }
         else if (strcmp(argv[1], "-main") == 0)
         {
             // call func
